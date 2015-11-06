@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuckUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="static_text">Lorem ipsum is simply dummy text of the printing and typesetting screen.Lorem ipsum has been the industry standard dummy text ever since the 1550s. When an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only 5 centuries , but also the leap into electroniv typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages , and more recently with desktop publishing softwares like aldus pagemaker including versions of lorem ipsum.  </string>
+    <string name="contact_us_paragraph">Please let us know if one of your favorite charities is not listed, if you have problems with the app, or if you have other creative ideas that we can use to make buck up even better!</string>
+    <string name="submit">Submit</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="my_account">My Account</string>
+    <string name="image">image</string>
+    <string name="agreements">Terms &amp; Agreements</string>
+
+</resources>

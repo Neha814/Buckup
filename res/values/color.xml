@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_color">#ffffff</color>
+    <color name="black_color">#000000</color>
+    <color name="green_color">#22c5a8</color>
+     <color name="green_dark_color">#11a288</color>
+     <color name = "dark_g">#068a73</color>
+    <color name="divider_light_green">#97e4d6</color>
+    <color name="divider_dark_green">#56d3bc</color>
+      <color name="red">#FF0000</color>
+      <color name = "grey_black">#0f3a39</color>
+     
+
+</resources>

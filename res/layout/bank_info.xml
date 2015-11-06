@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Bank Info"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/change_profile" />
+        </RelativeLayout>
+
+        <!-- **************** CARD TYPE *************** -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_fieldset"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:contentDescription="@string/image"
+                android:src="@drawable/card_icon" />
+
+            <EditText
+                android:id="@+id/card_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@null"
+                android:drawableLeft="@drawable/divider"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/divider"
+                android:ems="10"
+                android:hint="Card Type"
+                android:paddingRight="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <!-- ****************NAME ON CARD ************* -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_fieldset"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:contentDescription="@string/image"
+                android:src="@drawable/card_icon" />
+
+            <EditText
+                android:id="@+id/card_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@null"
+                android:drawableLeft="@drawable/divider"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/divider"
+                android:ems="10"
+                android:hint="Card Name"
+                android:paddingRight="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <!-- *************** CAED NUMBER **************** -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_fieldset"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:contentDescription="@string/image"
+                android:src="@drawable/card_icon" />
+
+            <EditText
+                android:id="@+id/card_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@null"
+                android:drawableLeft="@drawable/divider"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/divider"
+                android:ems="10"
+                android:hint="Card Number"
+                android:inputType="number"
+                android:maxLength="16"
+                android:paddingRight="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <!-- *******************  CVV number ************** -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_fieldset"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:contentDescription="@string/image"
+                android:src="@drawable/card_icon" />
+
+            <EditText
+                android:id="@+id/cvv_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@null"
+                android:drawableLeft="@drawable/divider"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/divider"
+                android:ems="10"
+                android:hint="CVV"
+                android:inputType="number"
+                android:maxLength="3"
+                android:paddingRight="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <!-- ************* EXPIRY DATE **************** -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_fieldset"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:contentDescription="@string/image"
+                android:src="@drawable/card_icon" />
+
+            <EditText
+                android:id="@+id/expiry_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@null"
+                android:drawableLeft="@drawable/divider"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/divider"
+                android:ems="10"
+                android:hint="Expiry Date"
+                android:paddingRight="5dp"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

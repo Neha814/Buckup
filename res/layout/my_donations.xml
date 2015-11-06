@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#00ffffff"
+    android:layout_height="match_parent"
+ 
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="My Donations"
+        android:textStyle="bold"
+        android:textColor="@color/white_color"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <TextView 
+        android:id="@+id/total_donations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Donations :"
+        android:textColor="@color/white_color"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+    
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:paddingTop="10dp"
+        android:dividerHeight="0dp"
+        android:layout_below="@+id/total_donations"
+       ></ListView>
+
+</RelativeLayout>

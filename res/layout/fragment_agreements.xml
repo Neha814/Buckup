@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/agreements"
+        android:textColor="@color/white_color"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="BuckUp reserves the right to modify the Privacy Statement as our business needs require. If we decide to change the Privacy Statement, we will post those changes here so that you will always know what information we gather, how we might use that information and whether we will disclose it to anyone. All changes will also be posted on www.buckup.com and on the Application at the time they take effect."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
